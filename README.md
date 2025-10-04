@@ -33,6 +33,4 @@ This is a pluing for openwebrx to overlay local ADS-B data from FlightAware loca
 
 
    
-   if any problems contact me at sv9tnf@gmail.com
 
-   Many 73's !!!
