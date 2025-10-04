@@ -3,9 +3,12 @@ This is a pluing for openwebrx to overlay local ADS-B data from FlightAware loca
 
 <img width="1444" height="871" alt="image" src="https://github.com/user-attachments/assets/7fc05d95-7cdc-457c-b49a-8340938a285a" />
 
+1. Must edit adsb_overlay file for your adsb reciever
+   the http://xxx:8080/skyaware/data/aircraft.json
+   
 
 
-2. Files go in map folder of openwebrx in my ubuntu system it is on
+3. Files go in map folder of openwebrx in my ubuntu system it is on
 
    /usr/lib/python3/dist-packages/htdocs/plugins/map/adsb_overlay/
 
@@ -14,7 +17,7 @@ This is a pluing for openwebrx to overlay local ADS-B data from FlightAware loca
 
    consult https://github.com/0xAF/openwebrxplus-plugins for more info.
 
-3. In order for the ships to be able to show an angle you must edit the file:
+4. In order for the ships to be able to show an angle you must edit the file:
    /usr/lib/python3/dist-packages/htdocs# cd /usr/lib/python3/dist-packages/htdocs/map-leaflet.js
 
 
