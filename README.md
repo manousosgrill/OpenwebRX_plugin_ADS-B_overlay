@@ -1,7 +1,8 @@
 This is a pluing for openwebrx to overlay local ADS-B data from FlightAware local reciever.
 
 
-<img width="1439" height="677" alt="image" src="https://github.com/user-attachments/assets/409b6e32-b6c1-4066-a94c-cad182b9da13" />
+<img width="1444" height="871" alt="image" src="https://github.com/user-attachments/assets/7fc05d95-7cdc-457c-b49a-8340938a285a" />
+
 
 
 2. Files go in map folder of openwebrx in my ubuntu system it is on
