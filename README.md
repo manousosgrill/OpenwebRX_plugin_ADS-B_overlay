@@ -1,6 +1,11 @@
 This is a pluing for openwebrx to overlay local ADS-B data from FlightAware local reciever.
 
 
+ATTENTION!! this plugin only works with OpenStreet Map
+
+
+
+
 <img width="1444" height="871" alt="image" src="https://github.com/user-attachments/assets/7fc05d95-7cdc-457c-b49a-8340938a285a" />
 
 1. Must edit adsb_overlay.js file for your adsb reciever
