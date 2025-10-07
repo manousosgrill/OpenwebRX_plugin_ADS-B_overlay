@@ -4,7 +4,7 @@ Plugins.adsb_overlay.no_css = true;
 // Initialize the plugin
 Plugins.adsb_overlay.init = async function () {
 
-window.onload = function() {
+setTimeout(function () {
 
     const planeIcon = L.icon({
         iconUrl: "/static/plugins/map/adsb_overlay/plane.png",
@@ -58,7 +58,7 @@ window.onload = function() {
                 // --- Update cache ---
                 if (!planeCache[icao]) planeCache[icao] = [];
                 planeCache[icao].push({ lat: plane.lat, lon: plane.lon, timestamp: now });
-                const cutoff = now - 1200;
+                const cutoff = now - 300;
                 planeCache[icao] = planeCache[icao].filter(p => p.timestamp > cutoff);
 
                 // --- Marker ---
@@ -152,7 +152,8 @@ window.onload = function() {
 
     fetchPlanes();
     setInterval(fetchPlanes, 1000);
-};
+
+ }, 1000);
 
 // return true, to indicate the plugin is loaded correctly
 return true;
