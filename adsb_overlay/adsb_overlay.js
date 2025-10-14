@@ -41,7 +41,7 @@ setTimeout(function () {
 
     async function fetchPlanes() {
         try {
-            const res = await fetch("http://sv9tnf.ham.gd:8080/skyaware/data/aircraft.json");
+            const res = await fetch("http://xxx:8080/skyaware/data/aircraft.json");
             const data = await res.json();
 
             trailLayerGroup.clearLayers(); // clear old trails
