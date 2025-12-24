@@ -153,7 +153,7 @@ setTimeout(function () {
     fetchPlanes();
     setInterval(fetchPlanes, 1000);
 
- }, 1000);
+ }, 5000);
 
 // return true, to indicate the plugin is loaded correctly
 return true;
